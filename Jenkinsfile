@@ -3,9 +3,7 @@ pipeline {
 		project = "https://github.com/kirillsubin/juice-shop"
 		containerName = "magazin-sokov"
 	}
-	agent {
-        agent any
-    }
+	agent any
 	options {
 		timeout(time: 1, unit: 'HOURS')
 	}
